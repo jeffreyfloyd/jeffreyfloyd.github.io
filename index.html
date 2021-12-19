@@ -28,7 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
@@ -64,7 +64,7 @@
             </div>
         </header>
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section projects" id="projects">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
@@ -82,7 +82,8 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img class="img-fluid rounded" align="center" src="assets/img/portfolio/Steam-Emblem.png" alt="..." />
+                            <p class='text-center text-secondary'><font size="+2">Steam Game Recommender</font></p>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -91,7 +92,8 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img class="img-fluid" alt="..." src="assets/img/portfolio/daylight_savings.jpg">
+                            <p class="text-center text-secondary"><font size="+2">DST and Traffic Implications</font></p>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -100,7 +102,8 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/reddit-logo.png" alt="..." />
+                            <p class="text-center text-secondary"><font size="+2">Reddit Comment Classifier</font></p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +229,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Steam Game Recommender</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -234,9 +237,17 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Steam-Emblem.png" alt="..." height="500" width="500" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4 text-secondary">As an avid gamer, I find that it's difficult to get good game recommendations without putting in a lot of research or being generally well informed about many different titles. I designed an algorithm that compares the similarity of games hosted on Valve's Steam platform so that you can find new games to play with much less effort!</p>
+                                    <a href="https://github.com/jeffreyfloyd/Steam-Game-Recommender" style="font-weight: 600; text-decoration: none;
+                                         color: #225522; width: 20px; padding: 20px;" target="_blank">
+                                      <h3>Project Repo</h3>
+                                    </a>
+                                    <a href="https://share.streamlit.io/jeffreyfloyd/steam-game-recommender/streamlit_recommender.py" style="font-weight: 600; text-decoration: none;
+                                         color: #225522; width: 20px; padding: 20px;" target="_blank">
+                                      <h3>Check out the Streamlit App!</h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +265,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Daylight Savings Effect on Traffic</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -262,9 +273,13 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/daylight_savings.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4 text-secondary">Every year, we roll the clocks back an hour in the spring and forward in the fall. Together with my cohorts Mary Schindler and Curtis Hope Hill, we looked at traffic data to determine if the impact and severity of accidents increases during the weeks that Daylight Savings goes into effect.</p>
+                                    <a href="https://github.com/jeffreyfloyd/DST-and-traffic-implications" style="font-weight: 600; text-decoration: none;
+                                         color: #225522; width: 20px; padding: 20px;" target="_blank">
+                                      <h3>Project Repo</h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +297,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Reddit Comment Classifier</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -290,9 +305,13 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/reddit-logo.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4 text-secondary">Are users commenting on something that their brain finds satisfying or infuriating? I created a classification algorithm using NLP techniques to classify whether a comment had come from the <a href="https://www.reddit.com/r/mildlyinfuriating/">r/mildlyinfuriating</a> or the <a href="https://www.reddit.com/r/oddlysatisfying/">r/oddlysatisfying</a> subreddits.</p>
+                                    <a href="https://github.com/jeffreyfloyd/Reddit-Comment-Classifier" style="font-weight: 600; text-decoration: none;
+                                         color: #225522; width: 20px; padding: 20px;" target="_blank">
+                                      <h3>Project Repo</h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>
